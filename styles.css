@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333; /* لون النص الافتراضي */
+}
+
+h1, h2 {
+    color: #007bff; /* لون العنوان */
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ddd;
+    text-align:center ;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #d6a607;
+    color: #fff;
+}
+
+td:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #08c440;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تصميم للعبارات التي تأتي بعد الجدول */
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff; /* لون العبارات */
+}
+
+.navbar {
+    background-color: #044d9c; /* لون الخلفية */
+    padding: 10px 0; /* تباعد داخلي للشريط العلوي */
+}
+
+.navbar-nav {
+    list-style-type: none; /* إزالة نقاط الترقيم */
+    padding: 0; /* إزالة هامش القائمة */
+    text-align: center; /* محاذاة العناصر بالوسط */
+}
+
+.nav-item {
+    display: inline; /* عرض العناصر بجانب بعضها */
+    margin: 0 10px; /* تباعد بين العناصر */
+}
+
+.nav-link {
+    color: #fff; /* لون النص */
+    text-decoration: none; /* إزالة التزيين الافتراضي */
+    font-size: 18px; /* حجم الخط */
+    padding: 5px 10px; /* تباعد داخلي للروابط */
+    border-radius: 5px; /* تدوير الحواف */
+    transition: background-color 0.3s; /* تغيير اللون بانتقال ناعم */
+}
+
+.nav-link:hover {
+    background-color: #d6a607; /* لون الخلفية عند التحويم */
+}
+.property-image {
+    width: 200px; /* عرض الصورة */
+    height: 150px; /* ارتفاع الصورة */
+    object-fit: cover; /* لضمان أن الصورة تغطي الأبعاد المحددة بالكامل */
+    margin: 10px; /* مسافة بين الصور */
+    border: 1px solid #ddd; /* إطار الصورة */
+    border-radius: 4px; /* تدوير حواف الصورة */
+    display: inline-block; /* عرض الصور بجانب بعضها */
+}
+
+
+.details-row {
+    display: none;
+}
+
